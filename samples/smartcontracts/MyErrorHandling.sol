@@ -14,7 +14,12 @@ contract MyErrorHandling{
     uint8 public myVar;
     
     function addNumber(uint8 x, uint8 y) public {
-        require(x+y > x, "Operation out of bound");
+        //require(x+y > x, "Operation out of bound");
+        
+        if(x+y < x){
+            revert("Operatio out of bound");
+        }
         myVar = x + y;
     }
 }
+
