@@ -11,21 +11,32 @@ pragma solidity ^0.6.0;
 contract MyLoops{
     uint public myVal;
     
-    function performLooping() public {
-        
-        
+    function performWhileLoop() public {
+
         uint n;
     
-        // While loop
+        // while loop
         
-        while(n < 10 /*condition*/){
+        while(n < 0 /*condition*/){
             
             myVal++;
             n++;
             
         }
-        
-        
-        
+    }
+    
+    function performDoWhileLoop() public {
+
+        uint n;
+    
+        // do..while loop
+        do{
+            
+            myVal++;
+            n++;
+            
+        }while(n < 0 /*condition*/);
+
     }
 }
+
