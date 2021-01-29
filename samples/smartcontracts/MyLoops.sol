@@ -38,5 +38,16 @@ contract MyLoops{
         }while(n < 0 /*condition*/);
 
     }
-}
+    
+    
+    function performForLoop() public {
 
+        // for loop
+        for(uint n = 1/*initialize*/; n < 10 /*condition*/; n++){
+            
+            myVal++;
+
+        }
+
+    }
+}
