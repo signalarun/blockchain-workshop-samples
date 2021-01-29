@@ -13,9 +13,24 @@ contract MyArray{
     
     uint[5] public myFixedSizedArray;
     
+    uint[] public myDynamicArray;
+    
     function setMyFixedSizedArray(uint index, uint val) public {
         
         myFixedSizedArray[index] = val;
+        
+    }
+    
+    
+    function setMyDynamicArray(uint val) public {
+        
+        myDynamicArray.push(val);
+        
+    }
+    
+    function removeMyDynamicArray() public {
+        
+        myDynamicArray.pop();
         
     }
 }
