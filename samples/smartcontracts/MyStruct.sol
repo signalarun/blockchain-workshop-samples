@@ -12,17 +12,23 @@ contract MyStruct{
     
     struct Address{
         uint phone;
+        string houseName;
     }
     
     
-    Address public add;
+    Address public myAdd;
     
-    function setVal(uint val) public {
-        add.phone = val;
+    function setVal(uint phone, string memory houseName) public {
+        myAdd.phone = phone;
+        myAdd.houseName = houseName;
     }
     
-    function getVal() public view returns(uint){
-        return add.phone;
+    function getPhone() public view returns(uint){
+        return myAdd.phone;
+    }
+    
+    function getHouseName() public view returns(string memory){
+        return myAdd.houseName;
     }
 }
 
