@@ -14,4 +14,8 @@ contract MyBool{
     function setFlag() public{
         myFlag = true;
     }
+    
+    function restFlag() public{
+        myFlag = false;
+    }
 }
