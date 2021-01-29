@@ -21,4 +21,9 @@ contract MyBalanceTransferApp{
     function getBalance() public view returns(uint){
         return address(this).balance;
     }
+    
+    
+    function transferBalanceFromContract(address payable toAccount, uint amount) public{
+        toAccount.transfer(amount);
+    }
 }
