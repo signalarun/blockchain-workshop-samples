@@ -12,10 +12,14 @@ contract MyScope{
     // Logic
     
     uint public myVal; // static val
+    address public myAddress;
+    
     
     function setValAs_5() public{
         uint localVar = 5; // local val
         myVal = localVar;
+        
+        myAddress = msg.sender; // Getting global val
         
     }
     
