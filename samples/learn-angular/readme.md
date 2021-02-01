@@ -46,7 +46,7 @@ export class AppComponent {
 {{person.name}}
 ```
 ## Sample service code to try
-- Generate service by `ng generate service`, use name <data> for service
+- Generate service by `ng generate service`, use  "data" as name for service
 
 - data.service.ts
  ```
