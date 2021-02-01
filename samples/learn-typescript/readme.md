@@ -8,7 +8,8 @@
  `
 ## How to run ?
  `
- $ tsc first.ts`  
+ $ tsc first.ts`
+ 
  `
  $ node first.js
  `
