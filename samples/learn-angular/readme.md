@@ -8,10 +8,12 @@
 ## Creating a project
 `
 $ ng new my-first-project  
-`
+`  
+
 `
 $ cd my-first-project  
-`
+`  
+
 `
 $ ng serve  
 `
