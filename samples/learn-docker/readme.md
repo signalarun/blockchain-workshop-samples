@@ -31,5 +31,8 @@
      - Avoids copying of files mentioned in this file into the container while using COPY directive
      
   ## Attaching host machine files to the container
-     - `$ docker volume create abc`
-     - `$ docker run -it -v abc:/data <containername> bash`
+     ```
+      $ docker volume create abc
+      $ docker run -it -v abc:/data <containername> bash
+     ``` 
+     
