@@ -18,3 +18,5 @@
       > `docker build -t mytop` 
     - Running image
       > `docker run mytop` 
+    - History of build
+      > `docker history mytop`
