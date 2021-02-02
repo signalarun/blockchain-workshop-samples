@@ -15,6 +15,9 @@
  - Etherium runs a virtual machine(Ethereum Virtual Machine) capable of executing code of arbitrary and unbounded complexity.Its language is Turing complete,
    meanwhile Bitcoin's scripts are limited in functionality to true or false evaluation of spending. EVM is a stack based VM that executes bytecodes. 
    Smart contracts are executed on this VM. Solidity is a high-level language that can be executed on this VM.
+ - The idea of Etherium
+   > "The idea was that by using a general-purpose blockchain like Ethereum, a developer could program their particular application without having to implement the 
+     underlying mechanisms of peer-to-peer networks, blockchains, consensus algorithms, etc." - Mastering Etherium
    
 ### Protocols
  + Gossip
