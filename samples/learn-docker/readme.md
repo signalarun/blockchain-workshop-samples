@@ -5,6 +5,7 @@
    - CMD
    - COPY
    - ADD
+   - WORKDIR sets working directory
  
   + Example usage 
     - docker file
@@ -23,6 +24,8 @@
       > `$ docker history mytop`
     - Getting terminal of mytop
       > `$ docker run -it mytop bash`
+    - Getting terminal access in runtime
+      > `$ docker exec -it <container name or id> bash`
       
   ## .dockerignore file
      - Avoids copying of files mentioned in this file into the container while using COPY directive
