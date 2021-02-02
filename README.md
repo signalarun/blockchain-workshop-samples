@@ -16,3 +16,5 @@
 ## Protocols
  + Gossip
    - Simulation -> https://flopezluis.github.io/gossip-simulator/  
+   - https://youtu.be/dZk2owhbuto
+   - log(N) times are taken for a message(rumour) to reach all nodes, were N is the number of nodes
