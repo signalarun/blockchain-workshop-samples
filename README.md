@@ -6,10 +6,10 @@
 
 # Info
 
-## Characteristics of blockchain
+### Characteristics of blockchain
  - open, public, global, decentralized, neutral, and censorship-resistant
 
-## Etherium
+### Etherium
  - Its a globally decentralized computing infrastructure.Its capable of executing programs called smart contracts.This systems persistence is done on blockchain, 
    with a cryptocurrency called ether to meter and constrain execution resource costs.
  - Etherium runs a virtual machine(Ethereum Virtual Machine) capable of executing code of arbitrary and unbounded complexity.Its language is Turing complete,
