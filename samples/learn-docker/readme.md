@@ -1,16 +1,20 @@
 
 ## Docker directives
- - FROM base image to be used
- - RUN
- - CMD
- - COPY
- - ADD
+   - FROM base image to be used
+   - RUN
+   - CMD
+   - COPY
+   - ADD
  
-  + Example 
+  + Example usage 
     - docker file
     ``` 
      FROM ubuntu:18.04
      RUN apt-get update
      RUN apt-get install -y htop
+     CMD ["htop"]
      ```
-    - `docker build -t htop`
+    - Building image
+      > `docker build -t mytop` 
+    - Running image
+      > `docker run mytop` 
