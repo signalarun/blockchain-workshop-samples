@@ -16,7 +16,7 @@
    meanwhile Bitcoin's scripts are limited in functionality to true or false evaluation of spending. EVM is a stack based VM that executes bytecodes. 
    Smart contracts are executed on this VM. Solidity is a high-level language that can be executed on this VM.
    
-## Protocols
+### Protocols
  + Gossip
    - Simulation -> https://flopezluis.github.io/gossip-simulator/  
    - https://youtu.be/dZk2owhbuto
