@@ -8,6 +8,17 @@
 
 ### Characteristics of blockchain
  - open, public, global, decentralized, neutral, and censorship-resistant
+ ### Types
+ 
+  | Characteristics   |      Permissioned      |  Permissionless |
+  |----------|:-------------:|------:|
+  | Access |  Approved members only | Open access |
+  | Performance |    Faster   |   Slower |
+  | Consensus | Proof of work |    Proof of work |
+  | Transaction cost |    Low   |   High |
+  | Stability |    Highly stable   |   Limited stability |
+  | Performance |    Only members have full access   |   Same access level for all participants |
+  | Trust |    Trusted environment   |   Trust-free environment |
 
 ### Etherium
  - Its a globally decentralized computing infrastructure.Its capable of executing programs called smart contracts.This systems persistence is done on blockchain, 
