@@ -18,6 +18,9 @@
  - The idea of Etherium
    > "The idea was that by using a general-purpose blockchain like Ethereum, a developer could program their particular application without having to implement the 
      underlying mechanisms of peer-to-peer networks, blockchains, consensus algorithms, etc." - Mastering Etherium
+
+### Hyperledger
+ - A software used to create one's own personalized blockchain service
    
 ### Protocols
  + Gossip
