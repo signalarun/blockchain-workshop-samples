@@ -21,6 +21,8 @@
 
 ### Hyperledger
  - A software used to create one's own personalized blockchain service
+ - Channels
+   > These are virtual blockchain network that sits on the top of physical blockchain network and has itsown access rules.
    
 ### Protocols
  + Gossip
