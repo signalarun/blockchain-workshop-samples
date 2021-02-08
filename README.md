@@ -34,6 +34,7 @@
  + A software used to create one's own personalized blockchain service
  + Channels
    - These are virtual blockchain network that sits on the top of physical blockchain network and has itsown access rules.
+ [![](http://img.youtube.com/vi/vs8q1-xvoBE/0.jpg)](http://www.youtube.com/watch?v=vs8q1-xvoBE "")  
    
 ### Protocols
  + Gossip
