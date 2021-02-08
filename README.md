@@ -11,7 +11,7 @@
  ### Types
  
   | Characteristics   |      Permissioned      |  Permissionless |
-  |----------|:-------------:|------:|
+  |:----------|:-------------:|------:|
   | Access |  Approved members only | Open access |
   | Performance |    Faster   |   Slower |
   | Consensus | Proof of work |    Proof of work |
