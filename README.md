@@ -39,6 +39,17 @@
    ----------           ------------------          ------------
    |   App  |  -------> | Smart contract | -------> |   Ledger |
    ----------           ------------------          ------------
+ + Components of Hyperledger network
+   - Organization
+   - Network Config
+   - Certificate Authority
+   - Orderer
+   - Consortium
+   - Channel
+   - Channel Config
+   - Peer
+   - Ledger
+   - Smart Contract
    
 ### Protocols
  + Gossip
